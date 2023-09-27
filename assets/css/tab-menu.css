@@ -1,0 +1,39 @@
+.tab-menu{
+   border: 1px solid rgba(0, 0, 255, 0.532);;
+   width: 600px;
+   border-radius: 5px;
+   overflow: auto;
+}
+
+.tab-menu .tab-header{
+    background-color: rgba(0, 0, 255, 0.532);
+    height: 50px;
+    color: white;
+}
+
+.tab-menu .tab-header .item{
+    font-size: 25px;
+    width: calc(100%/4);
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    margin-top: 6px;
+}
+
+.active-tab{
+    background-color: white;
+    color:  rgba(0, 0, 255, 0.532);;
+}
+
+.tab-menu .tab-content{
+    background-color: white;
+    padding: 15px;
+}
+
+
+.tab-menu .tab-content .item{
+    font-weight: 600;
+}
